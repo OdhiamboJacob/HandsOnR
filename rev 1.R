@@ -1,0 +1,11 @@
+age = c(23,23,45,43,56,78,65,43,23)
+energy = c(87,88,56,43,40,41,55,45,90)
+color = c("green","yellow","blue")
+col = color
+pie(age, col=c(color))
+lbls = c("JI","KO","RE","TY","LO","FE","DA","GH","JB")
+pie(age,col=c(color),labels = c(lbls))
+table(age,energy)
+summary(age)
+summary(energy)
+summary(age,energy)
